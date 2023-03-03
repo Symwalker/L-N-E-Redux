@@ -1,13 +1,18 @@
 export const increment = () => {
-    return{
-      type : "INCREMENT",
+    return (dispatch)=>{
+      dispatch({
+        type : "INCREMENT",
+      })
       // TYPE KE SATH OR KUCH BHI DE SAKTAY HO
     }
   }
   export const decrement = () => {
-    return{
-      type : "DECREMENT",
+    return (dispatch)=>{
+      dispatch({
+        type : "DECREMENT",
+      })
       // TYPE KE SATH OR KUCH BHI DE SAKTAY HO
     }
   }
+
   
